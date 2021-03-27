@@ -98,6 +98,11 @@ body {
     display: grid;
     grid-template-columns: 70vw 30vw;
 }
+@media screen and (max-width:480px) {
+    #container {
+    display: block;
+}
+}
 
 /* -------------------- main -------------------- */
 #main {
